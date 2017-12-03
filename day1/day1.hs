@@ -3,8 +3,6 @@ module Day1 where
   import System.IO
   import Control.Monad
 
-  x = readFile "part1Puzzle.txt"
-
   main :: IO()
   main = do
     list <- readFile "day1Puzzle.txt"
